@@ -1,6 +1,6 @@
 const io = require('socket.io')(8000, {
     cors: {
-        origin: 'http://localhost:5173'
+        origin: 'https://kh-chat.vercel.app'
     }
 })
 
