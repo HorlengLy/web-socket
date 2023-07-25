@@ -1,9 +1,7 @@
 const io = require('socket.io')(8000, {
     cors: {
-        origin: 'https://kh-chat.vercel.app/',
-        methods: ["GET", "POST","PATCH"],
-        allowedHeaders: ["my-header"],
-        credentials: true
+        origin: '*',
+        methods: ["GET", "POST"]
     }
 })
 
